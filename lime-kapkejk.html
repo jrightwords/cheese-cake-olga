@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Капкейки | cheese-cake.ru</title>
+    <title>K=Лимонный капкейк | cheese-cake.ru</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
-    <meta name="description" content="Капкейки – это небольшие пирожные, как правило, от пяти до десяти сантиметров в диаметре, весом от 100 до 150 грамм, украшенные мастикой, взбитыми сливками, марципаном, фруктами, сахарной глазурью и т.д. Капкейки могут быть также выполнены в виде многослойного пирожного, когда на выпеченный кекс сверху с помощью крема крепятся один или несколько коржей согласно задумке кондитера." />
-    <meta name="keywords" content="Капкейки" />
-    <meta property="og:title" content="Капкейки" />
-    <meta property="og:url" content="https://cheese-cake.ru/product-category/kapkejki.html" />
+    <meta name="description" content="Тыквенный капкейк с апельсином и голубикой" />
+    <meta name="keywords" content="Тыквенный капкейк" />
+    <meta property="og:title" content="Тыквенный капкейк" />
+    <meta property="og:url" content="https://cheese-cake.ru/assortiment/kapkejki/pumpkin-kapkejk.html" />
     <meta property="og:image" content="https://cheese-cake.ru/img/s-logo.jpg" />
-    <meta property="og:description" content="Капкейки – это небольшие пирожные, как правило, от пяти до десяти сантиметров в диаметре, весом от 100 до 150 грамм, украшенные мастикой, взбитыми сливками, марципаном, фруктами, сахарной глазурью и т.д. Капкейки могут быть также выполнены в виде многослойного пирожного, когда на выпеченный кекс сверху с помощью крема крепятся один или несколько коржей согласно задумке кондитера." />
+    <meta property="og:description" content="Лимонный капкейк с апельсином и голубикой" />
     <meta property="og:site_name" content="cheese-cake.ru" />
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" tppabs="https://cheese-cake.ru/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png" tppabs="https://cheese-cake.ru/img/apple-icon-60x60.png">
@@ -28,6 +28,16 @@
     
     <link href="styles-v=IePxh1pZQKpp5pQm_msxh9Gw0jdeC5XenIQBJHnHPDE1.css" tppabs="https://cheese-cake.ru/bundles/styles?v=IePxh1pZQKpp5pQm_msxh9Gw0jdeC5XenIQBJHnHPDE1" rel="stylesheet"/>
 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+
     <script src="jquerybootstap-v=hBBlc9JwAAWn6eACHkqe3YZdT9p5vagUZqtrpJQeDWM1.js" tppabs="https://cheese-cake.ru/bundles/jquerybootstap?v=hBBlc9JwAAWn6eACHkqe3YZdT9p5vagUZqtrpJQeDWM1"></script>
 
     <script src="uiandajax-v=JCIVt0oZ1YPfkDTU-qmjO7Y0GWD55ktHJPZjx2F1Uzw1.js" tppabs="https://cheese-cake.ru/bundles/uiandajax?v=JCIVt0oZ1YPfkDTU-qmjO7Y0GWD55ktHJPZjx2F1Uzw1"></script>
@@ -36,7 +46,7 @@
    
 
 </head>
-<body>
+<body onload="ToolTips()" >
     <header>
         <div class="site-header">
             <div class="container">
@@ -122,7 +132,7 @@
         <h3>Впервые у нас? <a id="pop_signup" href="">Регистрация</a></h3>
         <h1>Вход на сайт</h1>
         <p class="status-login"></p>
-        <input name="__RequestVerificationToken" type="hidden" value="PkV2RrLPcLmSWGtBOi1rdUgXNQa2c_PdefOU1eR_x4nb3ojTDc_p-7GpJjOb4NI-i9aRulP_Ul4Lm_NNFo3FNp3OMavVYxuT4GjNV6g2esE1" />
+        <input name="__RequestVerificationToken" type="hidden" value="dFgoHAilMiMF_6Ypv_kJulwMgSIZkd3Nl__OSLmonExyqpEaTgus_vLQGPu_5A5j-8zHC3B0HskIrWkBETd4-iK3Kz6TJAWi_KyQb_YCXA41" />
         <p>
             <label for="username">Имя пользователя<span class="required">*</span></label>
             <input id="username" type="text" class="required" name="username" placeholder="Введите логин" />
@@ -137,8 +147,8 @@
         <a class="close" href="">отмена</a>
     </form>
             <div class="external_providers">
-            <form action="javascript:if(confirm(%27https://cheese-cake.ru/Error/NotFound?aspxerrorpath=/Auth/ExternalLogin  \n\nThis file was not retrieved by Teleport VLX, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27https://cheese-cake.ru/Error/NotFound?aspxerrorpath=/Auth/ExternalLogin%27" tppabs="https://cheese-cake.ru/Auth/ExternalLogin?__RequestVerificationToken=FJm5BP7VnMkEDV0zhOH7fX0iaBlqw4IdN4-x4O1aGq1uT5Db84RJK8FXHFBiTcldN7m1fvlJUFIzp7fNNiEOYEWOgoI26qhtUI8LlyK3JPk1" method="post">
-                <input name="__RequestVerificationToken" type="hidden" value="FJm5BP7VnMkEDV0zhOH7fX0iaBlqw4IdN4-x4O1aGq1uT5Db84RJK8FXHFBiTcldN7m1fvlJUFIzp7fNNiEOYEWOgoI26qhtUI8LlyK3JPk1" />
+            <form action="javascript:if(confirm(%27https://cheese-cake.ru/Error/NotFound?aspxerrorpath=/Auth/ExternalLogin  \n\nThis file was not retrieved by Teleport VLX, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27https://cheese-cake.ru/Error/NotFound?aspxerrorpath=/Auth/ExternalLogin%27" tppabs="https://cheese-cake.ru/Auth/ExternalLogin?__RequestVerificationToken=3FCLFRQzrk1St2Jc_P6n3iPobxkhzJ5F3rZI3DG3-VPU2X7eE4kxGXflHoznuKf2ssr_fGpD20IfBOQKvLlI5H5KEMDP1QAPfV0ZBvLbzcg1" method="post">
+                <input name="__RequestVerificationToken" type="hidden" value="3FCLFRQzrk1St2Jc_P6n3iPobxkhzJ5F3rZI3DG3-VPU2X7eE4kxGXflHoznuKf2ssr_fGpD20IfBOQKvLlI5H5KEMDP1QAPfV0ZBvLbzcg1" />
                 <div id="socialLoginList">
                     <p>
                         <!-- Facebook-->
@@ -157,7 +167,7 @@
         <h1>Восстановление пароля</h1>
         <p>Введите адрес вашей электронной почты или логин, указанный при регистрации</p>
         <p class="status-forgotreq"></p>
-        <input name="__RequestVerificationToken" type="hidden" value="fWy9hIxyXdqKSaNvrNLtQc4slURo8-EcHhqGPtPuPouysB8K5ae_HoFBoT4aPVYKxifdmk7Lq1THy_Qj7OAsu-nEkmhYdx2qvCDFCS9WZNQ1" />
+        <input name="__RequestVerificationToken" type="hidden" value="-EYh5XiSdRvzMibw8nYEdOW8Q0iSJ87JFztgBR4-wD3aG8WOs_qEsUjdxWnvzcyRgD8cRLwV5iedd6yzJyydPpIA2xaykAhYm2dJI4cPlcI1" />
         <p>
             <label for="request">Ваш e-mail или логин<span class="required">*</span></label>
             <input id="request" type="text" class="required" name="request">
@@ -172,7 +182,7 @@
         <h3>Уже зарегистрированы? <a id="pop_login" href="">Войти</a></h3>
         <h1>Регистрация</h1>
         <p class="status-register"></p>
-        <input name="__RequestVerificationToken" type="hidden" value="X7PRHl870J4X4hb434yL403TByEdP_PocnZn2p7Ctnqd-c1eNOS45KO6lSy2d8cNGZiduNppM1SzmeOj6Wl9uBWKpWlNZImoizWgNubT6Bo1" />
+        <input name="__RequestVerificationToken" type="hidden" value="DhhK5re88RWGfEIggSXPYHwaRSt9YIjfXl6TcZ-HFEv7vqaOOaJmMJGWtOn93UNH4YGS6xNf3qgvNf5GpnGORt9UGeebhZAaCXOQkCXoXyw1" />
         <p>
             <label for="signonname">Имя пользователя<span class="required" aria-required="true">*</span></label>
             <input id="signonname" type="text" name="signonname" class="required" aria-required="true" placeholder="Введите логин" data-rule-minlength="3" />
@@ -258,7 +268,7 @@
                                             <input type="submit" value="Отправить" class="cback-form-control cback-submit">
                                             <img class="ajax-loader" src="ajax-loader.gif" tppabs="https://cheese-cake.ru/img/ajax-loader.gif" alt="Отправка..." style="visibility: hidden;">
                                             <a class="close-callback" id="close-callback"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
-                                            <input name="__RequestVerificationToken" type="hidden" value="O5KmQ6_nRwQziyTTc2ZM9oHqrgCPr4FPNti7rv7pkwq7zh7Bip1-yID03guli_kfkSdEl-V5NbdBVQDbKRwPqqBdSuyfAs1cdv49DLhk5-U1" />
+                                            <input name="__RequestVerificationToken" type="hidden" value="w16HvqbL28_4HYqmlBpdf7UlhrNgHXsQ26mxvcyi98Q5gGeNM1SsyvFMcahyv2jL_cSPfmrXC6nvY_EkFKVS4K73Y9uFQKO_FCT0P7uYiL81" />
                                         </p>
                                         <div class="cback-response-output cback-display-none"></div>
                                     </form>
@@ -336,53 +346,380 @@
 
     <content>
 
-<div class="content-area group-kapkejki group">
-    <div class="category-head">
-        <h1 class="page-title">Капкейки</h1>
-        <div class="container">
-            <div class="row">
-                <div class="ch-content col-md-7 col-md-offset-5">
-                    <h1 class="page-title RBold">Капкейки</h1>
-                    <div class="group-description OSans">
-                        <p>Человеку, учившемуся в школе, не составит особого труда перевести слово «капкейк» на русский язык. Кап (cup) – чашка, кейк (cake) – кекс. Кекс величиной с чашку – вот что такое капкейк. Мода на яркие сладости захватила весь мир. А всё началось в Америке в 1828 году, когда рецепт маленьких кексов, украшенных шапкой из крема, был упомянут в известной кулинарной книге Э.Лесли. Со временем образовался классический рецепт, называемый «квартал», состоял он из четырёх ингредиентов: сливочного масла, сахара, муки, яиц.
-В Америке к выпечке капкейков относятся едва ли не с таким же пиететом, как в России к пасхальному куличу. Сливочное масло ни в коем случае не заменяют на маргарин, яйца берут свежайшие, сахар мелкого помола, а всевозможные наполнители, коим несть числа – самого лучшего качества, и всё для того, чтобы в итоге получились нежные, таящие во рту лакомства. Украшение капкейков – отдельная тема. Кремовая шапка или глазурь с марципановыми фигурками, тематические рисунки или весёлые абстрактные узоры, шоколад, сердечки, мордашки, бабочки и даже миниатюрные «плюшевые» мишки из печенья – всё это разнообразие вскружит голову любому сладкоежке! Капкейк – это мини-торт, и этим всё сказано.</p>
-                    </div>
-                </div>
+<div class="content-area item-limonnyj-kapkejk product-page">
 
-
-            </div>
-        </div>
-    </div>
-    <div class="container category-main">
+    <div class="container item-main">
         <div class="row">
 
-            <!-- breadcrambs -->
-            <nav class="store-breadcrumb"><a href="index.htm" tppabs="https://cheese-cake.ru/">Главная</a>&nbsp;/ &nbsp<a href="assortiment.html" tppabs="https://cheese-cake.ru/assortiment.html">Ассортимент</a>&nbsp;/&nbsp;Капкейки</nav>
+            <!-- main item content-->
+            <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
-            <div class="left-sidebar col-lg-3 col-md-4 hidden-sm hidden-xs">
+                <!-- breadcrambs -->
 
-                <aside class="categories-aside">
-                    <h2 class="listgroup-title">Ассортимент</h2>
-                    <div class="list-group-content-aside">
-                             
-      <a class="list-group-item" href="novinki-1.html" tppabs="https://cheese-cake.ru/product-category/novinki.html">      <img alt="Новинки" class="list-group-image-icon" src="newgr.png" tppabs="https://cheese-cake.ru/img/newgr.png"></img>
-      <span class="list-group-textname">Новинки&nbsp;(22)</span>
-</a>
-     
-      <a class="list-group-item" href="kapkejki.html" tppabs="https://cheese-cake.ru/product-category/kapkejki.html">      <img alt="Капкейки" class="list-group-image-icon" src="kapkejki.png" tppabs="https://cheese-cake.ru/img/kapkejki.png"></img>
-      <span class="list-group-textname">Капкейки&nbsp;(6)</span>
-</a>
-    
-     
-      <a class="list-group-item" href="tiramisu.html" tppabs="https://cheese-cake.ru/product-category/tiramisu.html">      <img alt="Тирамису" class="list-group-image-icon" src="tiramisu.png" tppabs="https://cheese-cake.ru/img/tiramisu.png"></img>
-      <span class="list-group-textname">Тирамису&nbsp;(6)</span>
-</a>
-    
 
+                <nav class="OSBold breadcrumb" itemprop="breadcrumb"><a href="index.htm" tppabs="https://cheese-cake.ru/">Главная</a>&nbsp;/ &nbsp<a href="assortiment.html" tppabs="https://cheese-cake.ru/assortiment.html">Ассортимент</a>&nbsp;/&nbsp;<a href="kapkejki.html" tppabs="https://cheese-cake.ru/product-category/kapkejki.html">Капкейки</a>&nbsp;/&nbsp;<a href="citrus-kapkejk.html" tppabs="https://cheese-cake.ru/product-category/citrus-kapkejk.html">Цитрусовые капкейки</a>&nbsp;/&nbsp; Лаймовый капкейк</nav>
+
+
+                <!-- message -->
+
+                <div class="item-message-good message-on-page" style="display:none"></div>
+
+                <!-- item area -->
+                <div class="item-area">
+
+                    <!-- item image -->
+
+                    <div class="images-wrapper col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                <!-- item single image -->
+                            <div class="item col-lg-12 col-md-12 col-sm-12 col-xs12">
+                                <a href="pumpkin-kapkejk.jpg" tppabs="https://cheese-cake.ru/DesertImg/pumpkin-kapkejk.jpg" itemprop="image" id="image_can_enlarge" class="main-product-image" alt="Тыквенный капкейк" title="Тыквенный капкейк"><img alt="Тыквенный капкейк" class="size-shop_single attachment-shop_single" height="auto" src="citrus-380x380.jpg" tppabs="https://cheese-cake.ru/DesertImg/pumpkin-kapkejk.jpg" width="100%"></img></a>
+                            </div>
                     </div>
-                </aside>
 
 
+
+                    <!-- item summary -->
+                    <div class="summary entry-summary col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                        <h1 itemprop="name" class="product_title entry-title">Лаймовый капкейк</h1>
+
+                        <!-- product rating -->
+                        <!-- product offer-->
+                        <div class="item-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+                                <p class="iprice OSans"><span class="amount">230<span class="Rur">р</span></span></p>
+                            <meta itemprop="price" content="1050">
+                            <meta itemprop="priceCurrency" content="RUB">
+                            <link itemprop="availability" itemscope="" itemtype="https://schema.org/InStock">
+                        </div>
+
+                        <!-- attributes -->
+                        <ul class="p0 ipas">
+                                <li class="ipa-ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value" rel="236 г">480 г</span></li>
+                                                            <li class="ipa-pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value" rel="4">6</span></li>
+                                                            <li class="ipa-piece-ves"> <span class="attribute-label"><span class="attribute-label-text">Вес 1 порции</span>:  </span> <span class="attribute-value" rel="59 г">80 г</span></li>
+                            <li class="ipa-product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
+                        </ul>
+
+
+
+                        <div class="product_meta">
+                            <span class="sku_wrapper">Артикул: <span class="sku" itemprop="sku">2088</span></span>
+                            <span class="posted_in">Категория: <a href="chizkejki.html" tppabs="https://cheese-cake.ru/product-category/chizkejki.html" rel="tag">Капкейки</a></span>
+                        </div>
+
+                        <div itemprop="description">
+                                <p class="NoSpacing m5">Лимонный капкейк </p>
+                            <br>
+                        </div>
+
+                        <form class="cart" method="post" enctype="multipart/form-data">
+
+                            <div class="quantity">
+								<label>Количество:
+                                <select name="quantity">
+									<option value="6" selected >6</option>
+									<option value="9" >9</option>
+									<option value="12" >12</option>
+									
+								</select>
+								</label>
+								<br>
+								
+								<label>Начинка:
+								<select name="filling">
+									<option value="whipped" selected >заварной крем</option>
+									<option value="curt" >ягодный курд</option>
+									<option value="jam" >джем</option>
+									<option value="berries" >свежие ягоды</option>
+								</select>
+								</label>
+								<div id="fillingTips" >
+									<p>Сливочный крем из взбитых сливок и карамели</p>
+								</div>
+								<br>
+								<label>Крем:
+								<select id="cream" name="cream">
+									<option value="creamcheese" selected label="Сливочный крем из взбитх сливок">крем чиз</option>
+									<option value="creamplombir" >крем пломбир</option>
+									<option value="creamcondensedmilk" >масляный крем со сгущенкой</option>
+									<option value="chocolateganash" >шоколадный ганаш</option>
+									<option value="merenge" >крем на швейцарской меренге</option>
+									<option value="caramel" >карамельный сливочный крем</option>
+								</select>
+								
+								</label>
+								<br>								
+								<label>Декорирование: 
+									<input id="decor" type="checkbox" class="form-center"> 
+								</label>
+								
+								<label>Подарочная упаковка: 
+									<input id="present" type="checkbox" class="form-center"> 
+								</label>
+                            </div>
+							<br>
+							<label>Комментарий:  
+								<textarea cols="40" rows="10"></textarea>
+							</label>
+
+                            <input type="hidden" name="add-to-cart" value="3069">
+                                <button type="submit" data-product_id="41" data-product_sku="2088" data-priduct_title="Лимонный капкейк" class="single_add_to_cart_button button alt">Добавить в корзину</button>
+                        </form>
+
+						
+                        <script src="es5-shims.min.js" tppabs="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                        <script src="share.js" tppabs="https://yastatic.net/share2/share.js"></script>
+                        <div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter"></div>
+                        <div class="product_additional_buttons">
+                                <a class="product_add_to_favourite" href="" data-product_id="41" data-product_sku="2088"><i class="fa fa-heart" aria-hidden="true"></i> Добавить в избранное</a>
+                                                    </div>
+                    </div>
+                    <!-- item summary end-->
+                    <!-- tabed info-->
+                    <div class="item-tabbed-block">
+                        <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#description">Описание</a></li>
+                                                            <li><a data-toggle="tab" href="#reviews">Отзывы</a></li>
+                                                            <li><a data-toggle="tab" href="#contents">Состав</a></li>
+                                                    </ul>
+
+                        <div class="tab-content">
+                                <div id="description" class="tab-pane fade in active">
+                                    <h2 class="product-description-header">Описание товара Тыквенный капкейк</h2>
+                                    <div class="descr">
+                                        <div class="descr">
+
+<strong><i>Страна производства:</i></strong> Россия
+
+</div>
+<p class="term"><strong><i>Срок годности:</i></strong> Срок годности при температуре не выше минус 18?С: 18 месяцев от даты производства, указанной на упаковке.</p>
+<p class="defrosting"><strong><i>Способ разморозки:</i></strong> Способ разморозки: вынуть из упаковки и поместить в холодильник на 4 часа или при комнатной температуре 1 час.
+Срок годности и способ хранения продукта после разморозки:
+5 дней в холодильнике или 3 дня при комнатной температуре (накрыть сверху).</p>
+<big>Пищевая и энергетическая ценность на 100г.</big>
+<table>
+<tbody>
+<tr>
+<td>Белки</td>
+<td>3,38г.</td>
+</tr>
+<tr>
+<td>Жиры</td>
+<td>13,55г.</td>
+</tr>
+<tr>
+<td>Углеводы</td>
+<td>49,15г.</td>
+</tr>
+<tr>
+<td>Калорийность</td>
+<td>339кКал</td>
+</tr>
+</tbody>
+</table>
+                                    </div>
+                                </div>
+                            <div id="reviews" class="tab-pane fade">
+
+                                    <h2 class="comment-reply-header-noreviews">Пока нет отзывов на товар &quot;Тыквенный капкейк&quot;<br />Вы можете быть первым</h2>
+
+
+                                <div id="review_form_wrapper">
+                                    <div id="review_form">
+                                        <div id="respond" class="comment-respond">
+                                            <h2 id="reply-title" class="comment-reply-title">Добавить отзыв</h2>
+                                            <form action="#" method="post" id="commentform" class="comment-form" novalidate="">
+                                                <p class="comment-form-rating"><label for="rating">Ваша оценка</label><p class="stars"><span><a href="#" class="star-5">5</a><a href="#" class="star-4">4</a><a href="#" class="star-3">3</a><a href="#" class="star-2">2</a><a href="#" class="star-1">1</a></span></p>
+                                                <select name="rating" id="rating" style="display: none;">
+                                                    <option value="">Оценка…</option>
+                                                    <option value="5">Отлично</option>
+                                                    <option value="4">Хорошо</option>
+                                                    <option value="3">Средне</option>
+                                                    <option value="2">Неплохо</option>
+                                                    <option value="1">Плохо</option>
+                                                </select>
+                                                <p class="comment-form-comment"><label for="comment">Ваш отзыв</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
+                                                <input name="submit" type="submit" id="submit" class="submit" value="Отправить">
+                                                <input type="hidden" name="product_id" value="41" id="comment_post_ID">
+                                                <input name="__RequestVerificationToken" type="hidden" value="EzC7l7UxW6Z_L-mAIuH8BZx5L1JvrTXsn1Gx6kcgeoce3AiJLOPCu-WIt7_2OwqQWsaPGWgG-CTMUJD1kc_6SW02G5bDtCpIEZQy3plhScQ1" />
+                                            </form>
+                                        </div><!-- #respond -->
+                                    </div>
+                                </div>
+                                <div class="message-on-page" style="display:none"></div>
+
+                                <div class="clear"></div>
+                            </div>
+                                <div id="contents" class="tab-pane fade">
+                                    <h2 class="product-contents-header">Состав &quot;Тыквенный капкейк&quot;</h2>
+                                    <p><a href="limonnyj-kapkejk.pdf" tppabs="https://cheese-cake.ru/pdf/limonnyj-kapkejk.pdf" target="_blank" class="btn btn-default rounded" title="Состав Лимонный капкейк">Посмотреть состав</a></p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <!-- end of tabbed info -->
+
+                </div>
+                <div class="simmilar-items">
+                    <h2>Похожие товары</h2>
+                    
+
+<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product out-stock" data-prod_country_id="1">
+
+    <div class="inner-product-content fade-hover">
+        <a href="kapkejk-red-velvet.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/kapkejk-red-velvet.html">
+            <div class="spec-bage"></div>
+            <div class="product-catalog-image">
+                <img alt="Праздничный, красочный капкейк с шоколадно-трюфельной начинкой, украшен шапочкой из крем-сыра и шоколадной медалькой" src="kapkejk-red-velvet-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/kapkejk-red-velvet-260x260.jpg"></img>
+                <div class="alpha-level">
+                </div>
+            </div>
+            <div class="product-catalog-description">
+
+                <a href="kapkejk-red-velvet.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/kapkejk-red-velvet.html" class="link-to-product">
+                    <h3>Капкейк ред вельвет</h3>
+                </a>
+                <div class="product-catalog-short-description">
+                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
+                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
+                    <p>жиры -11,4 грамм;</p>
+                    <p>углеводы -52,0 грамм.</p>
+                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
+                </div>
+                <ul class="product-catalog-details OSans">
+                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="288 г">288 г</span></li>
+                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
+                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="США">США</span></li>
+                </ul>
+                    <div class="star-rating-galerey" title="Оценка 4.166667 из 5">
+                        <span style="width:100%"><i aria-hidden="true" class="fa-star fa"></i><i aria-hidden="true" class="fa-star fa"></i><i aria-hidden="true" class="fa-star fa"></i><i aria-hidden="true" class="fa-star fa"></i><i aria-hidden="true" class="fa-star-o fa"></i></span>
+                    </div>
+
+                    <span class="price"><span class="amount OSans">1050<span class="Rur">р</span></span></span>
+                                    <a rel="nofollow" href="-add-to-cart=42.htm" tppabs="https://cheese-cake.ru/?add-to-cart=42" data-quantity="1" data-product_id="42" data-product_sku="2083" class="add_to_waitlist_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
+                <span class="product-in-cart">
+                </span>
+                    <b class="not-instock"><i class="fa fa-frown-o" aria-hidden="true"></i> Временно нет в наличии</b>
+            </div>
+            <div class="product-additional-buttons">
+                    <div class="waiting-add-button show" style="display:block">
+                        <a href="#" class="add_to_waiting_button" data-product_id="42" data-product_sku="2083" title="сообщить о поступлении товара Капкейк ред вельвет ">добавить в лист ожидания</a>
+                    </div>
+            </div>
+            <div class="product-additional-messages">
+                <b class="additional-message">Message</b>
+            </div>
+            </a>
+</div>
+</li>
+
+<!-- end single product -->
+
+
+<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product out-stock" data-prod_country_id="1">
+
+    <div class="inner-product-content fade-hover">
+        <a href=".html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/.html">
+            <div class="spec-bage"></div>
+            <div class="product-catalog-image">
+                <img alt="" src="-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/-260x260.jpg"></img>
+                <div class="alpha-level">
+                </div>
+            </div>
+            <div class="product-catalog-description">
+
+                <a href=".html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/.html" class="link-to-product">
+                    <h3>Шоколадный капкейк</h3>
+                </a>
+                <div class="product-catalog-short-description">
+                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
+                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
+                    <p>жиры -11,4 грамм;</p>
+                    <p>углеводы -52,0 грамм.</p>
+                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
+                </div>
+                <ul class="product-catalog-details OSans">
+                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="248 г">248 г</span></li>
+                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
+                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="США">США</span></li>
+                </ul>
+
+                    <span class="price"><span class="amount OSans">1050<span class="Rur">р</span></span></span>
+                                    <a rel="nofollow" href="-add-to-cart=494.htm" tppabs="https://cheese-cake.ru/?add-to-cart=494" data-quantity="1" data-product_id="494" data-product_sku="2084" class="add_to_waitlist_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
+                <span class="product-in-cart">
+                </span>
+                    <b class="not-instock"><i class="fa fa-frown-o" aria-hidden="true"></i> Временно нет в наличии</b>
+            </div>
+            <div class="product-additional-buttons">
+                    <div class="waiting-add-button show" style="display:block">
+                        <a href="#" class="add_to_waiting_button" data-product_id="494" data-product_sku="2084" title="сообщить о поступлении товара Шоколадный капкейк ">добавить в лист ожидания</a>
+                    </div>
+            </div>
+            <div class="product-additional-messages">
+                <b class="additional-message">Message</b>
+            </div>
+            </a>
+</div>
+</li>
+
+<!-- end single product -->
+
+
+<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product out-stock" data-prod_country_id="1">
+
+    <div class="inner-product-content fade-hover">
+        <a href="kapkejk-s-arahisovym-maslom.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/kapkejk-s-arahisovym-maslom.html">
+            <div class="spec-bage"></div>
+            <div class="product-catalog-image">
+                <img alt="Шоколадный капкейк с начинкой из арахисового масла и шоколадного трюфеля, сверху украшен шапочкой из арахисового масла" src="kapkejk-s-arahisovym-maslom-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/kapkejk-s-arahisovym-maslom-260x260.jpg"></img>
+                <div class="alpha-level">
+                </div>
+            </div>
+            <div class="product-catalog-description">
+
+                <a href="kapkejk-s-arahisovym-maslom.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/kapkejk-s-arahisovym-maslom.html" class="link-to-product">
+                    <h3>Капкейк с арахисовым маслом</h3>
+                </a>
+                <div class="product-catalog-short-description">
+                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
+                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
+                    <p>жиры -11,4 грамм;</p>
+                    <p>углеводы -52,0 грамм.</p>
+                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
+                </div>
+                <ul class="product-catalog-details OSans">
+                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="296 г">296 г</span></li>
+                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
+                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="США">США</span></li>
+                </ul>
+
+                    <span class="price"><span class="amount OSans">1050<span class="Rur">р</span></span></span>
+                                    <a rel="nofollow" href="-add-to-cart=43.htm" tppabs="https://cheese-cake.ru/?add-to-cart=43" data-quantity="1" data-product_id="43" data-product_sku="2089" class="add_to_waitlist_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
+                <span class="product-in-cart">
+                </span>
+                    <b class="not-instock"><i class="fa fa-frown-o" aria-hidden="true"></i> Временно нет в наличии</b>
+            </div>
+            <div class="product-additional-buttons">
+                    <div class="waiting-add-button show" style="display:block">
+                        <a href="#" class="add_to_waiting_button" data-product_id="43" data-product_sku="2089" title="сообщить о поступлении товара Капкейк с арахисовым маслом ">добавить в лист ожидания</a>
+                    </div>
+            </div>
+            <div class="product-additional-messages">
+                <b class="additional-message">Message</b>
+            </div>
+            </a>
+</div>
+</li>
+
+<!-- end single product -->
+
+
+                </div>
+            </div>
+            <!-- end of main item content -->
+            <!-- right column-->
+
+
+            <div class="right-sidebar col-lg-3 col-md-4 col-sm-5 hidden-xs">
 
     <aside id="recently-viewed" class="sidebar-widget recently-viewed">
         <h3 class="widget-title" itemprop="name">Вы смотрели</h3>
@@ -394,47 +731,47 @@
 
                 <div class="item active">
                     <div class="thumb-wrapper">
-                        <a href="chizkejk-mango-s-marakujej-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-mango-s-marakujej-2.html" title="Чизкейк Манго с маракуйей">
-                            <img alt="Слои чизкейка , пюре из маракуйи и сливочного крема со свежим манго, покрыт, глазурью из сока манго и маракуйи." src="chizkejk-mango-s-marakujej-2-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/chizkejk-mango-s-marakujej-2-260x260.jpg"></img>
+                        <a href="malinovyj-kapkejk-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/malinovyj-kapkejk.html" title="Малиновый капкейк">
+                            <img alt="Ванильный капкейк с начинкой из малины, украшен нежным сливочно- малиновым кремом и желейной конфеткой  форме малины" src="malinovyj-kapkejk-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/malinovyj-kapkejk-260x260.jpg"></img>
                         </a>
                     </div>
 
-                    <a class="product-title" href="chizkejk-mango-s-marakujej-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-mango-s-marakujej-2.html" title="Чизкейк Манго с маракуйей">
-                        Чизкейк Манго с маракуйей
+                    <a class="product-title" href="malinovyj-kapkejk-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/malinovyj-kapkejk.html" title="Малиновый капкейк">
+                        Малиновый капкейк
                     </a>
                 </div>
 
                         <div class="item">
                             <div class="thumb-wrapper">
-                                <a href="ponchiki-assorti-2-1-2-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/ponchiki-assorti-2-1-2-2.html" title="Пончики Ассорти (2)">
-                                    <img alt="" src="ponchiki-assorti-2-1-2-2-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/ponchiki-assorti-2-1-2-2-260x260.jpg"></img>
+                                <a href="dulche-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/dulche.html" title="Чизкейк Дульче де Лече">
+                                    <img alt="Сливочный и карамельный чизкейк, покрытый «мраморной» карамельной глазурью" src="dulche-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/dulche-260x260.jpg"></img>
                                 </a>
                             </div>
 
-                            <a class="product-title" href="ponchiki-assorti-2-1-2-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/ponchiki-assorti-2-1-2-2.html" title="Пончики Ассорти (2)">
-                                Пончики Ассорти (2)
+                            <a class="product-title" href="dulche-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/dulche.html" title="Чизкейк Дульче де Лече">
+                                Чизкейк Дульче де Лече
                             </a>
                         </div>
                         <div class="item">
                             <div class="thumb-wrapper">
-                                <a href="nabor-mini-makaruny-assorti-6-vkusov-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/nabor-mini-makaruny-assorti-6-vkusov-2.html" title="Набор-мини Макаруны &quot;Ассорти&quot; (6 вкусов)">
-                                    <img alt="" src="nabor-mini-makaruny-assorti-6-vkusov-2-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/nabor-mini-makaruny-assorti-6-vkusov-2-260x260.jpg"></img>
+                                <a href="chizkejk-3-shokolada-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-3-shokolada.html" title="Чизкейк 3 шоколада">
+                                    <img alt="Тонкий шоколадно-песочный корж с корицей и миндальным орехом, чизкейк с добавлением горького шоколада и чизкейк с молочным шоколадом. Сверху покрыты темной шоколадной глазурью, с узором из молочного шоколада" src="chizkejk-3-shokolada-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/chizkejk-3-shokolada-260x260.jpg"></img>
                                 </a>
                             </div>
 
-                            <a class="product-title" href="nabor-mini-makaruny-assorti-6-vkusov-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/nabor-mini-makaruny-assorti-6-vkusov-2.html" title="Набор-мини Макаруны &quot;Ассорти&quot; (6 вкусов)">
-                                Набор-мини Макаруны &quot;Ассорти&quot; (6 вкусов)
+                            <a class="product-title" href="chizkejk-3-shokolada-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-3-shokolada.html" title="Чизкейк 3 шоколада">
+                                Чизкейк 3 шоколада
                             </a>
                         </div>
                         <div class="item">
                             <div class="thumb-wrapper">
-                                <a href="konfety-morozhenogo-iskushenie-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/konfety-morozhenogo-iskushenie-2.html" title="Конфеты-мороженое &#171;Искушение&#187;">
-                                    <img alt="" src="konfety-morozhenogo-iskushenie-2-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/konfety-morozhenogo-iskushenie-2-260x260.jpg"></img>
+                                <a href="chizkejk-s-kusochkami-pechenya-oreo-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-s-kusochkami-pechenya-oreo.html" title="Чизкейк с кусочками печенья орео">
+                                    <img alt="Чизкейк с кусочками печенья «Орео», с белым и молочным шоколадом, украшенный кусочками печенья и темным шоколадом." src="chizkejk-s-kusochkami-pechenya-oreo-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/chizkejk-s-kusochkami-pechenya-oreo-260x260.jpg"></img>
                                 </a>
                             </div>
 
-                            <a class="product-title" href="konfety-morozhenogo-iskushenie-2-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/konfety-morozhenogo-iskushenie-2.html" title="Конфеты-мороженое &#171;Искушение&#187;">
-                                Конфеты-мороженое &#171;Искушение&#187;
+                            <a class="product-title" href="chizkejk-s-kusochkami-pechenya-oreo-1.html" tppabs="https://cheese-cake.ru/assortiment/RecentlyViewed/chizkejk-s-kusochkami-pechenya-oreo.html" title="Чизкейк с кусочками печенья орео">
+                                Чизкейк с кусочками печенья орео
                             </a>
                         </div>
                     <!-- Left and right controls -->
@@ -454,238 +791,34 @@
     </aside>
 
 
-            </div>
+                <aside class="categories-aside">
+                    <h2 class="listgroup-title">Ассортимент</h2>
+                    <div class="list-group-content-aside">
+                              
+      <a class="list-group-item" href="kapkejki.html" tppabs="https://cheese-cake.ru/product-category/kapkejki.html">      <img alt="Капкейки" class="list-group-image-icon" src="kapkejki.png" tppabs="https://cheese-cake.ru/img/kapkejki.png"></img>
+      <span class="list-group-textname">Капкейки&nbsp;(6)</span>
+</a>
+     
+    
+    
+    
+      <a class="list-group-item" href="tiramisu.html" tppabs="https://cheese-cake.ru/product-category/tiramisu.html">      <img alt="Тирамису" class="list-group-image-icon" src="tiramisu.png" tppabs="https://cheese-cake.ru/img/tiramisu.png"></img>
+      <span class="list-group-textname">Тирамису&nbsp;(6)</span>
+</a>
+   
 
-            <!-- items -->
-            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-
-                <div class="shop-group-controls">
-                    <div class="btn-group sort-selection OSans">
-                        <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sort-selected" data-sort_id="0">Цена: по возрастанию</span> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="" class="sortSelector" data-sort_id="0">Цена: по возрастанию</a></li>
-                            <li><a href="" class="sortSelector" data-sort_id="1">Цена: по убыванию</a></li>
-                            <li><a href="" class="sortSelector" data-sort_id="2">По популярности</a></li>
-                            <li><a href="" class="sortSelector" data-sort_id="3">По рейтингу</a></li>
-                            <li><a href="" class="sortSelector" data-sort_id="4">По новизне</a></li>
-                        </ul>
                     </div>
-
-                </div>
-
-                <ul class="products-list p0" data-product_category="kapkejki">
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product" data-prod_country_id="1">
-
-    <div class="inner-product-content fade-hover">
-        <a href="citrus-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/pumpkin-kapkejk.html">
-            <div class="spec-bage"></div>
-            <div class="product-catalog-image">
-                <img alt="Цитрусовые капкейки" src="citrus-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/pumpkin-kapkejk-260x260.jpg"></img>
-                <div class="alpha-level">
-                </div>
-            </div>
-            <div class="product-catalog-description">
-
-                <a href="citrus-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/pumpkin-kapkejk.html" class="link-to-product">
-                    <h3>Цитрусовые капкейки</h3>
-                </a>
-                <div class="product-catalog-short-description">
-                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
-                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
-                    <p>жиры -11,4 грамм;</p>
-                    <p>углеводы -52,0 грамм.</p>
-                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
-                </div>
-                <ul class="product-catalog-details OSans">
-                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="236 г">236 г</span></li>
-                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
-                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
-                </ul>
-
-                    <span class="price"><span class="amount OSans">220<span class="Rur">р</span></span></span>
-                                    <a rel="nofollow" href="-add-to-cart=41.htm" tppabs="https://cheese-cake.ru/?add-to-cart=41" data-quantity="1" data-product_id="41" data-product_sku="2088" class="add_to_cart_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
-                <span class="product-in-cart">
-                </span>
-            </div>
-            <div class="product-additional-buttons">
-                <div class="favorites-add-button show" style="display:block">
-                    <a href="#" class="add_to_favourites_button" data-product_id="41" data-product_sku="2088" title="добавить Тыквенный капкейк в избранное">добавить в избранное</a>
-                </div>
-            </div>
-            <div class="product-additional-messages">
-                <b class="additional-message">Message</b>
-            </div>
-            </a>
-</div>
-</li>
-
-<!-- end single product -->
-
-<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product" data-prod_country_id="1">
-
-    <div class="inner-product-content fade-hover">
-        <a href="spicy-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/chocolade-mars-kapkejk.html">
-            <div class="spec-bage"></div>
-            <div class="product-catalog-image">
-                <img alt="Шоколадный капкейк с Марсом и голубикой" src="spicy-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/chocolade-mars-kapkejk-260x260.jpg"></img>
-                <div class="alpha-level">
-                </div>
-            </div>
-            <div class="product-catalog-description">
-
-                <a href="spicy-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/chocolade-mars-kapkejk.html" class="link-to-product">
-                    <h3>Пряные капкейки</h3>
-                </a>
-                <div class="product-catalog-short-description">
-                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
-                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
-                    <p>жиры -11,4 грамм;</p>
-                    <p>углеводы -52,0 грамм.</p>
-                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
-                </div>
-                <ul class="product-catalog-details OSans">
-                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="236 г">236 г</span></li>
-                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
-                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
-                </ul>
-
-                    <span class="price"><span class="amount OSans">230<span class="Rur">р</span></span></span>
-                                    <a rel="nofollow" href="-add-to-cart=41.htm" tppabs="https://cheese-cake.ru/?add-to-cart=41" data-quantity="1" data-product_id="41" data-product_sku="2088" class="add_to_cart_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
-                <span class="product-in-cart">
-                </span>
-            </div>
-            <div class="product-additional-buttons">
-                <div class="favorites-add-button show" style="display:block">
-                    <a href="#" class="add_to_favourites_button" data-product_id="41" data-product_sku="2088" title="добавить Тыквенный капкейк в избранное">добавить в избранное</a>
-                </div>
-            </div>
-            <div class="product-additional-messages">
-                <b class="additional-message">Message</b>
-            </div>
-            </a>
-</div>
-</li>
-
-<!-- end single product -->
-
-<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product" data-prod_country_id="1">
-
-    <div class="inner-product-content fade-hover">
-        <a href="vanilla-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/chocolade-zephyr-kapkejk.html">
-            <div class="spec-bage"></div>
-            <div class="product-catalog-image">
-                <img alt="Шоколадный капкейк с зефиром и марсом" src="vanilla-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/chocolade-zephyr-pumpkin-kapkejk-260x260.jpg"></img>
-                <div class="alpha-level">
-                </div>
-            </div>
-            <div class="product-catalog-description">
-
-                <a href="vamilla-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/chocolade-zephyr-kapkejk.html" class="link-to-product">
-                    <h3>Ванильные капкейки</h3>
-                </a>
-                <div class="product-catalog-short-description">
-                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
-                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
-                    <p>жиры -11,4 грамм;</p>
-                    <p>углеводы -52,0 грамм.</p>
-                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
-                </div>
-                <ul class="product-catalog-details OSans">
-                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="236 г">236 г</span></li>
-                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
-                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
-                </ul>
-
-                    <span class="price"><span class="amount OSans">270<span class="Rur">р</span></span></span>
-                                    <a rel="nofollow" href="-add-to-cart=41.htm" tppabs="https://cheese-cake.ru/?add-to-cart=41" data-quantity="1" data-product_id="41" data-product_sku="2088" class="add_to_cart_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
-                <span class="product-in-cart">
-                </span>
-            </div>
-            <div class="product-additional-buttons">
-                <div class="favorites-add-button show" style="display:block">
-                    <a href="#" class="add_to_favourites_button" data-product_id="41" data-product_sku="2088" title="добавить Шоколадный капкейк в избранное">добавить в избранное</a>
-                </div>
-            </div>
-            <div class="product-additional-messages">
-                <b class="additional-message">Message</b>
-            </div>
-            </a>
-</div>
-</li>
-
-<!-- end single product -->
-
-<li class="col-lg-4 col-md-6 col-sm-4 col-xs-6 m0 product" data-prod_country_id="1">
-
-    <div class="inner-product-content fade-hover">
-        <a href="chocolate-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/zefphyr-blueberry-pumpkin-kapkejk.html">
-            <div class="spec-bage"></div>
-            <div class="product-catalog-image">
-                <img alt="Тыквенный капкейк с зефиром и голубикой" src="chocolate-260x260.jpg" tppabs="https://cheese-cake.ru/DesertThumb/zephyr-blueberry-pumpkin-kapkejk-260x260.jpg"></img>
-                <div class="alpha-level">
-                </div>
-            </div>
-            <div class="product-catalog-description">
-
-                <a href="chocolate-kapkejk.html" tppabs="https://cheese-cake.ru/assortiment/kapkejki/zephyr-blueberry-pumpkin-kapkejk.html" class="link-to-product">
-                    <h3>Шоколадные капкейки</h3>
-                </a>
-                <div class="product-catalog-short-description">
-                    <p>Пищевая и энергетическая ценность на 100 грамм продукта:</p>
-                    <p>Белки &nbsp;-4,6 &nbsp;грамм;</p>
-                    <p>жиры -11,4 грамм;</p>
-                    <p>углеводы -52,0 грамм.</p>
-                    <p>Энергетическая ценность 329 ккал/1377 кДж.</p>
-                </div>
-                <ul class="product-catalog-details OSans">
-                    <li class="pa_ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value OSBold" rel="236 г">236 г</span></li>
-                        <li class="pa_pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value OSBold" rel="4">4</span></li>
-                    <li class="pa_product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
-                </ul>
-
-                    <span class="price"><span class="amount OSans">220<span class="Rur">р</span></span></span>
-                                    <a rel="nofollow" href="-add-to-cart=41.htm" tppabs="https://cheese-cake.ru/?add-to-cart=41" data-quantity="1" data-product_id="41" data-product_sku="2088" class="add_to_cart_button ajax_add_to_cart"><img src="cart-round.png" tppabs="https://cheese-cake.ru/img/cart-round.png" class="cart-round" /></a>
-                <span class="product-in-cart">
-                </span>
-            </div>
-            <div class="product-additional-buttons">
-                <div class="favorites-add-button show" style="display:block">
-                    <a href="#" class="add_to_favourites_button" data-product_id="41" data-product_sku="2088" title="добавить Тыквенный капкейк в избранное">добавить в избранное</a>
-                </div>
-            </div>
-            <div class="product-additional-messages">
-                <b class="additional-message">Message</b>
-            </div>
-            </a>
-</div>
-</li>
-
-<!-- end single product -->
-
-
-                </ul>
+                </aside>
 
             </div>
-            <!-- end items -->
 
-            
 
+            <!-- end of right column-->
+
+        </div>
     </div>
-</div></content>
+</div>
+</content>
 
     <footer>
         <div class="footer">
@@ -877,5 +1010,49 @@
 (function(){ var widget_id = 'V5hp4u2VwC';var d=document;var w=window;function l(){
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
     <!-- {/literal} END JIVOSITE CODE -->
+	<script type="text/javascript">
+
+  
+  function ToolTips(){
+		var cream = document.getElementById('cream');
+		cream.addEventListener('change', ToolTip);
+		console.log("start lisnening..");
+	}
+
+function ToolTip(){
+	var v = this.options[this.selectedIndex].value;
+	console.log(v);
+	var windowTip = document.getElementById("fillingTips");
+
+	switch(v) {
+	case "caramel":
+		windowTip.innerText="Сливочный крем из взбитых сливок и карамели";
+		
+		break;
+	case "creamcheese":
+		windowTip.innerText="Очень вкусный, слегка солмоватый за счет твороженного сыра, соспайт из твороженного сыра, сливок и сахарной пудры";
+
+		break; 
+case "chocolate":
+		windowTip.innerText="Крем из шоколада и свежих сливок";
+
+		break; 
+case "creamcondensedmilk":
+		windowTip.innerText="Крем из масла и сгущенки, легкий, пышный и воздушный";
+
+		break; 
+case "merenge":
+		windowTip.innerText="Щвейцарская меренга - это сочетаие белкового и масляного крема";
+
+		break; 
+case "creamplombir":
+		windowTip.innerText="Нижнейший сливочный крем похож на мороженное - пломбир в самой веценой слегка подтаявшей стадии";
+
+		break; 
+	}
+		
+	}
+
+	</script>
 </body>
 </html>

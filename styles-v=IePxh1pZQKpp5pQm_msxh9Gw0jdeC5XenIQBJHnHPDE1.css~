@@ -1,3 +1,9 @@
+.form-center {
+	position: relative;
+	top: 15px;
+}
+
+
 .ui-draggable-handle {
     -ms-touch-action: none;
     touch-action: none
@@ -4900,9 +4906,9 @@ pre code {
 }
 
 .container {
-    padding-right: 15px;
+    padding-right: 0px;
     padding-left: 15px;
-    margin-right: auto;
+    margin-right: 0;
     margin-left: auto
 }
 
@@ -16872,10 +16878,10 @@ small a {
 }
 
 .category-head .ch-content {
-    width: 870px;
+    width: 1100px;
     float: right;
     border-radius: 6px;
-    padding-right: 30px
+    padding-right: 0px
 }
 
 .ch-content h1 {

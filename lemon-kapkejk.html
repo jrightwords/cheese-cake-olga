@@ -28,6 +28,16 @@
     
     <link href="styles-v=IePxh1pZQKpp5pQm_msxh9Gw0jdeC5XenIQBJHnHPDE1.css" tppabs="https://cheese-cake.ru/bundles/styles?v=IePxh1pZQKpp5pQm_msxh9Gw0jdeC5XenIQBJHnHPDE1" rel="stylesheet"/>
 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+
     <script src="jquerybootstap-v=hBBlc9JwAAWn6eACHkqe3YZdT9p5vagUZqtrpJQeDWM1.js" tppabs="https://cheese-cake.ru/bundles/jquerybootstap?v=hBBlc9JwAAWn6eACHkqe3YZdT9p5vagUZqtrpJQeDWM1"></script>
 
     <script src="uiandajax-v=JCIVt0oZ1YPfkDTU-qmjO7Y0GWD55ktHJPZjx2F1Uzw1.js" tppabs="https://cheese-cake.ru/bundles/uiandajax?v=JCIVt0oZ1YPfkDTU-qmjO7Y0GWD55ktHJPZjx2F1Uzw1"></script>
@@ -36,7 +46,7 @@
    
 
 </head>
-<body>
+<body onload="ToolTips()" >
     <header>
         <div class="site-header">
             <div class="container">
@@ -347,7 +357,7 @@
                 <!-- breadcrambs -->
 
 
-                <nav class="OSBold breadcrumb" itemprop="breadcrumb"><a href="index.htm" tppabs="https://cheese-cake.ru/">Главная</a>&nbsp;/ &nbsp<a href="assortiment.html" tppabs="https://cheese-cake.ru/assortiment.html">Ассортимент</a>&nbsp;/&nbsp;<a href="kapkejki.html" tppabs="https://cheese-cake.ru/product-category/kapkejki.html">Капкейки</a>&nbsp;/&nbsp;Лимонный капкейк</nav>
+                <nav class="OSBold breadcrumb" itemprop="breadcrumb"><a href="index.htm" tppabs="https://cheese-cake.ru/">Главная</a>&nbsp;/ &nbsp<a href="assortiment.html" tppabs="https://cheese-cake.ru/assortiment.html">Ассортимент</a>&nbsp;/&nbsp;<a href="kapkejki.html" tppabs="https://cheese-cake.ru/product-category/kapkejki.html">Капкейки</a>&nbsp;/&nbsp;<a href="citrus-kapkejk.html" tppabs="https://cheese-cake.ru/product-category/citrus-kapkejk.html">Цитрусовые капкейки</a>&nbsp;/&nbsp; Лимонный капкейк</nav>
 
 
                 <!-- message -->
@@ -376,7 +386,7 @@
                         <!-- product rating -->
                         <!-- product offer-->
                         <div class="item-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                <p class="iprice OSans"><span class="amount">250<span class="Rur">р</span></span></p>
+                                <p class="iprice OSans"><span id="amount" class="amount">200<span class="Rur">р</span></span></p>
                             <meta itemprop="price" content="1050">
                             <meta itemprop="priceCurrency" content="RUB">
                             <link itemprop="availability" itemscope="" itemtype="https://schema.org/InStock">
@@ -384,9 +394,9 @@
 
                         <!-- attributes -->
                         <ul class="p0 ipas">
-                                <li class="ipa-ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value" rel="236 г">236 г</span></li>
-                                                            <li class="ipa-pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value" rel="4">4</span></li>
-                                                            <li class="ipa-piece-ves"> <span class="attribute-label"><span class="attribute-label-text">Вес 1 порции</span>:  </span> <span class="attribute-value" rel="59 г">59 г</span></li>
+                                <li class="ipa-ves"><span class="attribute-label"><span class="attribute-label-text">Вес</span>:  </span> <span class="attribute-value" rel="236 г">480 г</span></li>
+                                                            <li class="ipa-pieces"><span class="attribute-label"><span class="attribute-label-text">Порций</span>:  </span> <span class="attribute-value" rel="4">6</span></li>
+                                                            <li class="ipa-piece-ves"> <span class="attribute-label"><span class="attribute-label-text">Вес 1 порции</span>:  </span> <span class="attribute-value" rel="59 г">80 г</span></li>
                             <li class="ipa-product-from"><span class="attribute-label"><span class="attribute-label-text">Страна производитель</span>:  </span> <span class="attribute-value" rel="Россия">Россия</span></li>
                         </ul>
 
@@ -397,22 +407,63 @@
                             <span class="posted_in">Категория: <a href="chizkejki.html" tppabs="https://cheese-cake.ru/product-category/chizkejki.html" rel="tag">Капкейки</a></span>
                         </div>
 
-                        <div itemprop="description">
-                                <p class="NoSpacing m5">Тыквенный капкейк украшен апельсином и голубикой</p>
-                            <br>
-                        </div>
-
                         <form class="cart" method="post" enctype="multipart/form-data">
 
                             <div class="quantity">
-                                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Кол-во" class="input-text qty text" size="4">
+								<label>Количество:
+                                <select name="quantity">
+									<option value="6" selected >6</option>
+									<option value="9" >9</option>
+									<option value="12" >12</option>
+									
+								</select>
+								</label>
+								<br>
+								
+								<label>Начинка:
+								<select name="filling">
+									<option value="whipped" selected >заварной крем</option>
+									<option value="curt" >ягодный курд</option>
+									<option value="jam" >джем</option>
+									<option value="berries" >свежие ягоды</option>
+								</select>
+								</label>
+								
+								<br>
+								<label>Крем:
+								<select id="cream" name="cream">
+									<option value="creamcheese" selected label="Сливочный крем из взбитх сливок">крем чиз</option>
+									<option value="creamplombir" >крем пломбир</option>
+									<option value="creamcondensedmilk" >масляный крем со сгущенкой</option>
+									<option value="chocolateganash" >шоколадный ганаш</option>
+									<option value="merenge" >крем на швейцарской меренге</option>
+									<option value="caramel" >карамельный сливочный крем</option>
+								</select>
+								
+								</label>
+								<div id="fillingTips" >
+									<p>Сливочный крем из взбитых сливок и карамели</p>
+								</div>
+								
+								<label>Декорирование: 
+									<input id="decor" type="checkbox" class="form-center"> 
+									<br><small>В цену включена кондитерская посыпка</small> 
+								</label>
+								<br>
+								<label>Подарочная упаковка: 
+									<input id="present" type="checkbox" class="form-center"> 
+								</label>
                             </div>
+							<br>
+							<label>Комментарий:  
+								<textarea cols="40" rows="10"></textarea>
+							</label>
 
                             <input type="hidden" name="add-to-cart" value="3069">
                                 <button type="submit" data-product_id="41" data-product_sku="2088" data-priduct_title="Лимонный капкейк" class="single_add_to_cart_button button alt">Добавить в корзину</button>
                         </form>
 
-
+						
                         <script src="es5-shims.min.js" tppabs="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
                         <script src="share.js" tppabs="https://yastatic.net/share2/share.js"></script>
                         <div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter"></div>
@@ -956,5 +1007,59 @@
 (function(){ var widget_id = 'V5hp4u2VwC';var d=document;var w=window;function l(){
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
     <!-- {/literal} END JIVOSITE CODE -->
+	<script type="text/javascript">
+
+  
+  function ToolTips(){
+		var cream = document.getElementById('cream');
+		cream.addEventListener('change', ToolTip);
+		console.log("start lisnening..");
+
+		var decor = document.getElementById('decor');
+		decor.addEventListener('change', ChangeAmount);
+	}
+
+	function ChangeAmount(e){
+
+		var amount = document.getElementById("amount");
+        if (e.target.checked) amount.innerHTML = '240<span class=\"Rur\">р</span>'; else amount.innerHTML = '200<span class=\"Rur\">р</span>';
+		
+		console.log(e.target.checked);
+	}
+function ToolTip(){
+	var v = this.options[this.selectedIndex].value;
+	console.log(v);
+	var windowTip = document.getElementById("fillingTips");
+
+	switch(v) {
+	case "caramel":
+		windowTip.innerText="Сливочный крем из взбитых сливок и карамели";
+		
+		break;
+	case "creamcheese":
+		windowTip.innerText="Очень вкусный, слегка солмоватый за счет твороженного сыра, соспайт из твороженного сыра, сливок и сахарной пудры";
+
+		break; 
+case "chocolate":
+		windowTip.innerText="Крем из шоколада и свежих сливок";
+
+		break; 
+case "creamcondensedmilk":
+		windowTip.innerText="Крем из масла и сгущенки, легкий, пышный и воздушный";
+
+		break; 
+case "merenge":
+		windowTip.innerText="Щвейцарская меренга - это сочетаие белкового и масляного крема";
+
+		break; 
+case "creamplombir":
+		windowTip.innerText="Нижнейший сливочный крем похож на мороженное - пломбир в самой веценой слегка подтаявшей стадии";
+
+		break; 
+	}
+		
+	}
+
+	</script>
 </body>
 </html>

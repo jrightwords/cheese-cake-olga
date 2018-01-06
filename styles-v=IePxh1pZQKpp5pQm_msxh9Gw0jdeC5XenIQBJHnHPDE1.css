@@ -1,3 +1,9 @@
+.form-center {
+	position: relative;
+	top: 15px;
+}
+
+
 .ui-draggable-handle {
     -ms-touch-action: none;
     touch-action: none
@@ -17705,7 +17711,7 @@ small a {
 }
 
 .summary .cart {
-    float: right
+    float: left;
 }
 
 .quantity input.qty {
